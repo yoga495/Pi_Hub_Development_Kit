@@ -1,4 +1,4 @@
-# Raspberry Pi Analog Device Sensor Suite
+# Raspberry Pi Analog Mode Device Sensor Suite
 
 This repository contains Python scripts for testing and monitoring various analog sensors connected to a Raspberry Pi through an MCP3008 Analog-to-Digital Converter (ADC) and displaying the results on an I2C LCD display.
 
