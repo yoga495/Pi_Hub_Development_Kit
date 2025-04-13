@@ -82,7 +82,7 @@ Navigate to "Interface Options" and enable both SPI and I2C.
 3. Clone this repository:
 ```bash
 git clone https://github.com/yoga495/Pi_Hub_Development_Kit.git
-cd rpi-analog-sensors
+cd Analog_Mode_Devices
 ```
 
 4. Make the scripts executable:
