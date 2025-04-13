@@ -163,6 +163,9 @@ Most analog sensors require calibration for accurate readings. Default calibrati
 - `accelerometer-test.py`: Test script for accelerometer
 - `joystick-test.py`: Test script for joystick
 
+## Help
+For additional help or to report issues, please post your comments here: https://www.hackster.io/yoganandham2012/pi-hub-development-kit-a-versatile-modular-iot-prototyping-ca311e.
+
 ## License
 
 This project is released under the MIT License.
