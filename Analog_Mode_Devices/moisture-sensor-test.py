@@ -19,9 +19,9 @@ try:
         print(moisture_sensor.value)
         # Convert to percentage (0% = dry, 100% = wet)
         if raw_value >= DRY_VALUE:
-            moisture_percent = 100
-        elif raw_value <= WET_VALUE:
             moisture_percent = 0
+        elif raw_value <= WET_VALUE:
+            moisture_percent = 100
         else:
             moisture_percent = int((DRY_VALUE - raw_value) / (DRY_VALUE - WET_VALUE) * 100)
         
@@ -31,11 +31,11 @@ try:
         # Display status message
         
         if moisture_percent < 30:
-            print("Status: WET")
+            print("Status: DRY")
         elif moisture_percent < 70:
             print("Status: MOIST")
         else:
-            print("Status: DRY")
+            print("Status: WET")
         
         time.sleep(1)
         
