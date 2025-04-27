@@ -42,14 +42,14 @@ try:
         
         if moisture_percent < 30:
             print("Status: DRY")
-            lcd.lcd_string("Status: WET", LCD_LINE_2)
+            lcd.lcd_string("Status: DRY", LCD_LINE_2)
             
         elif moisture_percent < 70:
             print("Status: MOIST")
             lcd.lcd_string("Status: MOIST", LCD_LINE_2)
         else:
             print("Status: WET")
-            lcd.lcd_string("Status: DRY", LCD_LINE_2)
+            lcd.lcd_string("Status: WET", LCD_LINE_2)
         
         time.sleep(1)
         
